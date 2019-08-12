@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="185fc0bf-7bc0-4443-b668-c3ff96ee1dc1" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1P3JyBML2kSwBtjw7NV07YbSUlE" />
+  <component name="ReplState" timestamp="1565122978398">{:repl-history {:ide [], :local [{:command &quot;(println (rest (seq ())))&quot;, :offset 25, :ns &quot;loja.core&quot;} {:command &quot;(println (rest []))&quot;, :offset 19, :ns &quot;loja.core&quot;} {:command &quot;(println (next []))&quot;, :offset 19, :ns &quot;loja.aula1&quot;} {:command &quot;(println (seq []))&quot;, :offset 18, :ns &quot;loja.aula1&quot;} {:command &quot;(println (seq [1 2 3 5]))&quot;, :offset 25, :ns &quot;loja.aula1&quot;} {:command &quot;(println  (vals (group-by :usuario (l.db/todos-os-pedidos))))&quot;, :offset 61, :ns &quot;loja.aula3&quot;} {:command &quot;(-&gt;&gt; l.db/todos-os-pedidos\n     (group-by :usuario)\n     vals\n     (map count)\n     println)&quot;, :offset 92, :ns &quot;loja.aula3&quot;} {:command &quot;(-&gt;&gt; (range 50)\n     (map filtro1)\n     (map filtro2)\n     println)&quot;, :offset 67, :ns &quot;loja.aula5&quot;} {:command &quot;(-&gt;&gt; (range 50)\n     (mapv filtro1)\n     (mapv filtro2)\n     println)&quot;, :offset 69, :ns &quot;loja.aula5&quot;} {:command &quot;(-&gt;&gt; '(0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 0 1 2 3 4 5 6 7 8 9 0)\n     (map filtro1)\n     (map filtro2)\n     println)&quot;, :offset 139, :ns &quot;loja.aula5&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="REPL for loja" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="loja" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure REPL.REPL for loja" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="185fc0bf-7bc0-4443-b668-c3ff96ee1dc1" name="Default Changelist" comment="" />
+      <created>1565097098510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565097098510</updated>
+    </task>
+    <servers />
+  </component>
+</project>
